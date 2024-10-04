@@ -56,7 +56,7 @@ export default defineConfig({
   iconUrl: "/favicon.png",
   baseUrl:
     process.env.NODE_ENV === "production"
-      ? "https://maiton-ui.vercel.app"
+      ? "https://maiton.xyz"
       : "http://localhost:5173",
   sidebar,
 });
